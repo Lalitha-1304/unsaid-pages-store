@@ -1,0 +1,43 @@
+.category-page {
+    padding: 3rem 1rem 5rem;
+}
+
+.category-header {
+    text-align: center;
+    margin-bottom: 4rem;
+    position: relative;
+}
+
+.category-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.back-link {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--color-text-light);
+    font-size: 0.9rem;
+}
+
+.back-link:hover {
+    color: var(--color-accent);
+}
+
+.no-products {
+    text-align: center;
+    grid-column: 1 / -1;
+    color: var(--color-text-light);
+    font-style: italic;
+    padding: 3rem;
+}
+
+@media (max-width: 768px) {
+    .back-link {
+        position: static;
+        display: block;
+        margin-bottom: 1rem;
+        text-align: left;
+    }
+}

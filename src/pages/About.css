@@ -1,0 +1,26 @@
+.about-page {
+    padding: 4rem 1rem 6rem;
+    max-width: 800px;
+    text-align: center;
+}
+
+.about-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    color: var(--color-text);
+}
+
+.about-content-block p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    color: var(--color-text-light);
+    line-height: 1.8;
+}
+
+.highlight-text {
+    color: var(--color-accent) !important;
+    font-family: var(--font-heading);
+    font-size: 1.5rem !important;
+    font-style: italic;
+    margin-top: 3rem !important;
+}
